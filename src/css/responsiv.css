@@ -1,0 +1,57 @@
+@media (max-width: 770px) {
+    body{
+        height: 102vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    nav{
+        padding: 0px;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .barra{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px
+    }
+    a{
+        font-size: 21px;
+    }
+    a.navegacao:hover{
+        padding: 4px;
+        font-size: 17px;
+    }
+
+    main{
+        margin-top: 85px;
+    }
+
+    main h1{
+        font-size: 45px;
+    }
+    .txt-central h4{
+        margin-bottom: 25px;
+        font-size: 15px;
+    }
+    .botao-central > button{
+        margin-bottom: 55px;
+        font-size: 13px;
+        max-width: 115px;
+        max-height: 39px;
+    }
+    .quadradao{
+        max-width: 114.4px;
+        max-height: 114.4px;
+    }
+    #N-Bueno{
+        padding: 5px;
+        margin: 7.7px;
+    }
+    .rodape{
+        margin-bottom: 15px;
+    }
+    .rodape::after{
+        content: "";
+    }
+}

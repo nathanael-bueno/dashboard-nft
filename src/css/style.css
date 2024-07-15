@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: 
+    #d4cdb8;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header{
+    /*Apagar/ background-color: aqua;*/
+    width: auto;
+    height: 120px;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+/* [Barra de Navegaçao] */
+nav{
+    padding: 30px;
+    width: 100vw;
+    height: 120px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+
+.barra.logo img{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+}
+
+.barra.logo a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: large;
+}
+
+a.navegacao:hover{
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 7px;
+    text-decoration: underline black;
+    background-color: rgb(172, 150, 119);
+}
+
+.barra.canto{
+    padding: 15px;
+    border-bottom: 2px solid black;
+}
+/* -------------------- */
+
+
+
+
+
+
+
+/* ------- [Principal] ------- */
+main{
+    /* Apagar background-color: aqua; */
+    color: black;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    padding: 5px;
+}
+
+main > h1{
+    font-size: 85px;
+    margin: auto;
+}
+
+main > h1 > i {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p, h4, button, strong{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.conteudo-central{
+    height: 230px;
+    width: 100% ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.central{
+    display: flex;
+    height: 100%;
+    width: 425px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.txt-central > h4{
+    margin-bottom: 65px;
+    font-size: 18px;
+}
+
+.botao-central > button{
+    margin-bottom: 60px;
+    background-color: black;
+    color: rgb(216, 201, 181);
+    font-size: 18px;
+    width: 180px;
+    height: 51px;
+}
+.botao-central > button:hover{
+    color: black;
+    text-decoration: underline black;
+    background-color: rgb(172, 150, 119);
+    transform: scale(1.25);
+}
+
+.quadradao{
+    display: flex;
+    width: 280px;
+    height: 280px;
+    overflow: hidden;
+    object-fit: cover;
+    margin: 0px 20px 40px 20px;
+}
+
+
+
+
+
+/* Rodape */
+footer{
+    padding: 17px 5px 17px 5px;
+    height: 150px;
+}
+
+.rodape{
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.conteudo-rodape{
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: 12px;
+    gap: 17px;
+}
+
+.linha-vert{
+    background-color: black;
+    width: 2px;
+    height: 110px;
+}
+
+#N-Bueno{
+    margin: 0px;
+    padding: 0px;
+}
